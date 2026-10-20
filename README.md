@@ -1,16 +1,15 @@
-# gerenciamento_estado
+# Gerenciamento de Estado
 
-A new Flutter project.
+App **Flutter** de lista de tarefas (listar, criar, editar e apagar) que exercita o **gerenciamento de estado** de um ecrã com dados remotos, persistidos no **Back4App** (Parse Server).
 
-## Getting Started
+## Executar
 
-This project is a starting point for a Flutter application.
+1. Crie uma app no [Back4App](https://www.back4app.com) com a classe `Task` e atualize as chaves em `lib/main.dart`.
+2. Corra:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pacotes: `parse_server_sdk_flutter` (o `provider` está declarado para a evolução para um estado partilhado).
